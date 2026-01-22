@@ -26,7 +26,7 @@ graph TD
         E -->|http://localhost:11434| F[Ollama Server]
         
         subgraph "Inference Engine"
-            F -->|Context Loading| G[Unified Memory (RAM)]
-            G -->|Weights| H[(Qwen 2.5 Coder 7B)]
+            F -->|Context Loading| G["Unified Memory (RAM)"]
+            F -->|Weights| H[("Qwen 2.5 Coder 7B")]
         end
     end
