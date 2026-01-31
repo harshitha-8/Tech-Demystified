@@ -1,8 +1,4 @@
 # Daggr: Orchestrating Deterministic AI Workflows via Programmatic Graph Visualization
-
-**ID:** 004  
-**Topic:** Agentic AI, Workflow Orchestration, Visualization, DevOps  
-**Status:** ✅ Published  
 **Date:** January 29, 2026  
 **Author:** Tech Demystified Research Team  
 
