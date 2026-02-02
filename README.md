@@ -22,6 +22,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **002** | [**The Quantization Tax: Benchmarking Gemma 3 on Jetson Orin**](./articles/002-gemma-3-edge.md) | Computer Vision, Edge AI, Hardware | ✅ Published |
 | **003** | [**Clawdbot's Security Blind Spot: When Agents Meet Credentials**](./articles/003-clawdbot-security.md) | Agentic AI, AppSec, Security | ✅ Published |
 | **004** | [**Daggr: Orchestrating Deterministic AI Workflows**](./articles/004_daggr_analysis.md) | Agentic AI, Workflow Orchestration, Visualization | ✅ Published |
+| **005** | [**Demystifying Stochastic Processes in Machine Learning**](./articles/005-stochastic-ml.md) | Machine Learning Theory, Probability, Algorithms | ✅ Published |
 
 
 
