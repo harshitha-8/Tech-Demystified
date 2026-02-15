@@ -48,12 +48,27 @@ These are standardized tests developed by researchers to provide rigorous, repea
 *   They often fail to capture nuance, tone, or "helpfulness."
 
 ```mermaid
-graph LR
-    A[Model] -->|Input Question| B{Benchmark}
-    B -->|Correct| C[Score +1]
-    B -->|Incorrect| D[Score 0]
-    C --> E[Aggregate Score]
-    D --> E
+graph TD
+    subgraph "MMLU Benchmark Process"
+    Q[Question: Rocks are classified as...] -->|Input| M[Model]
+    
+    subgraph "Options"
+    O1[A. Color]
+    O2[B. Shape]
+    O3[C. How they formed]
+    O4[D. Minerals]
+    end
+    
+    M -->|Prediction| P[Option C]
+    
+    P -->|Compare| GT{Ground Truth: C}
+    GT -->|Match| S1[Score: 1]
+    GT -->|Mismatch| S0[Score: 0]
+    end
+    
+    style Q fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style M fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
+    style GT fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
 ```
 
 ### 2. Human Preference Evaluation (Elo Ratings)
@@ -62,6 +77,32 @@ For tasks where there is no single "right" answer—like writing a poem or summa
 
 **Side-by-Side (SxS) Evaluation:**
 In this setup, a human (or a strong judge model like GPT-4) is presented with a prompt and two anonymous model responses. They must choose which response is better.
+
+```mermaid
+graph LR
+    subgraph "LMSys Arena Style Battle"
+    U[User Prompt] --> MA[Model A]
+    U --> MB[Model B]
+    
+    MA --> RA[Response A]
+    MB --> RB[Response B]
+    
+    RA --> J{Human Judge}
+    RB --> J
+    
+    J -->|Vote| W[Winner: Model A]
+    J -->|Vote| T[Tie]
+    J -->|Vote| L[Winner: Model B]
+    
+    W --> E[Update Elo Rating]
+    L --> E
+    T --> E
+    end
+    
+    style U fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style J fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    style E fill:#e0f2f1,stroke:#00695c,stroke-width:2px
+```
 
 *   **LMSys Chatbot Arena:** The gold standard for this approach. It uses an Elo rating system (similar to Chess) to rank models based on thousands of crowdsourced battles.
 
@@ -92,6 +133,9 @@ block-beta
     end
     space
     Query["Query: What is the needle?"] --> Retrieval["Model Retrieval"]
+    
+    style Needle fill:#ffccbc,stroke:#d84315,stroke-width:2px
+    style Retrieval fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
 ```
 
 If a model has "perfect" recall, the heatmap of this test should be entirely green, regardless of where the needle is placed (start, middle, or end of the context).
