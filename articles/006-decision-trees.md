@@ -15,10 +15,16 @@ For example, suppose we’re predicting whether a customer will buy a car. The t
 
 ```mermaid
 graph TD
-    A[Income > $70,000?] -->|Yes| B[Age < 35?]
-    A -->|No| C[Don't Buy]
-    B -->|Yes| D[Buy Car]
-    B -->|No| E[Don't Buy]
+    A[Start: Customer Data] -->|Income > $70k?| B{Check Age}
+    A -->|Income <= $70k| C[Prediction: Don't Buy]
+    B -->|Age < 35?| D[Prediction: Buy Car]
+    B -->|Age >= 35?| E[Prediction: Don't Buy]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px,color:black
+    style B fill:#bbf,stroke:#333,stroke-width:2px,color:black
+    style C fill:#fbb,stroke:#333,stroke-width:2px,color:black
+    style D fill:#bfb,stroke:#333,stroke-width:2px,color:black
+    style E fill:#fbb,stroke:#333,stroke-width:2px,color:black
 ```
 
 Each internal node represents a **decision rule**, each branch a **possible outcome**, and each leaf node a **final prediction**. This structure makes decision trees highly **interpretable** — you can literally trace a model’s reasoning path from top to bottom.
@@ -61,17 +67,25 @@ A decision tree doesn’t just randomly decide where to split the data — it ca
 
 ```mermaid
 graph TD
-    A[Root Node: All Data] -->|Split Criterion| B[Subset 1]
-    A -->|Split Criterion| C[Subset 2]
-    B -->|Split| D[Leaf Node: Prediction]
-    B -->|Split| E[Leaf Node: Prediction]
-    C -->|Split| F[Leaf Node: Prediction]
-    C -->|Split| G[Leaf Node: Prediction]
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style D fill:#ccf,stroke:#333,stroke-width:2px
-    style E fill:#ccf,stroke:#333,stroke-width:2px
-    style F fill:#ccf,stroke:#333,stroke-width:2px
-    style G fill:#ccf,stroke:#333,stroke-width:2px
+    subgraph "Root Node (Impure)"
+    A[🔴🔴🔴🔵🔵🔵]
+    end
+    
+    A -->|Best Split Feature| B
+    A -->|Best Split Feature| C
+    
+    subgraph "Child Nodes (More Pure)"
+    B[🔴🔴🔴🔵]
+    C[🔵🔵]
+    end
+    
+    B -->|Further Split| D[🔴🔴🔴]
+    B -->|Further Split| E[🔵]
+    
+    style A fill:#fff,stroke:#333,stroke-width:2px
+    style D fill:#fbb,stroke:#333,stroke-width:2px
+    style C fill:#bfb,stroke:#333,stroke-width:2px
+    style E fill:#bfb,stroke:#333,stroke-width:2px
 ```
 
 #### The Splitting Criteria
@@ -276,6 +290,21 @@ For deeper insights, especially in ensemble models, use **SHAP (SHapley Additive
 #### Using Ensembles to Overcome Tree Limitations
 
 A single decision tree is a high-variance learner — it captures fine details but can be unstable. Ensemble methods like **Random Forests** and **Gradient Boosting** take this weakness and turn it into a strength.
+
+```mermaid
+graph LR
+    subgraph "Ensemble Learning"
+    D[Data] --> T1[Tree 1]
+    D --> T2[Tree 2]
+    D --> T3[Tree 3]
+    T1 --> V1[Vote 1]
+    T2 --> V2[Vote 2]
+    T3 --> V3[Vote 3]
+    V1 & V2 & V3 --> F[Final Prediction (Majority Vote)]
+    end
+    
+    style F fill:#bfb,stroke:#333,stroke-width:2px
+```
 
 * **Random Forests** reduce variance by averaging many trees trained on random subsets of data and features.
 * **Gradient Boosting** reduces bias by sequentially training trees that correct errors made by earlier ones.
