@@ -20,6 +20,8 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **008** | [**Adaptive Weight Optimization: Fine-Tuning Paradigms in LLMs**](./008-fine-tuning.md) | LLM Fine-Tuning, RLHF, LoRA, PEFT                 | ✅ Published |
 | **009** | [**Convex vs. Non-Convex Optimization: Mathematical Foundations of ML Training**](./009-convex-optimization.md) | Optimization Theory, Gradient Descent, Deep Learning | ✅ Published |
 | **010** | [**Recursive Partitioning in Supervised Learning: Decision Tree Architectures**](./010-decision-trees-advanced.md) | Decision Trees, CART, Ensemble Methods, ML Theory | ✅ Published |
+| **011** | *Reserved* | — | 📝 Pending |
+| **012** | [**Extreme Gradient Boosting: Second-Order Optimization in Ensemble Learning**](./012-xgboost-gradient-boosting.md) | XGBoost, Gradient Boosting, Ensemble Methods | ✅ Published |
 
 ## 🛠 Methodology
 
