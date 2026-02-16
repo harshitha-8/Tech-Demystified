@@ -19,6 +19,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **007** | [**Model Evaluation: Navigating the Maze of Metrics**](./007-model-evaluation.md) | LLM Evaluation, Benchmarking, Red Teaming         | ✅ Published |
 | **008** | [**Adaptive Weight Optimization: Fine-Tuning Paradigms in LLMs**](./008-fine-tuning.md) | LLM Fine-Tuning, RLHF, LoRA, PEFT                 | ✅ Published |
 | **009** | [**Convex vs. Non-Convex Optimization: Mathematical Foundations of ML Training**](./009-convex-optimization.md) | Optimization Theory, Gradient Descent, Deep Learning | ✅ Published |
+| **010** | [**Recursive Partitioning in Supervised Learning: Decision Tree Architectures**](./010-decision-trees-advanced.md) | Decision Trees, CART, Ensemble Methods, ML Theory | ✅ Published |
 
 ## 🛠 Methodology
 
