@@ -35,6 +35,9 @@ graph TD
 
 ## 2. Data Foundations: Explicit vs. Implicit Feedback
 
+![Recommendation System Overview](./images/014-recsys-01.png)
+*Source: BuildML - Overview of recommendation system data flow and architecture.*
+
 ### 2.1 Types of User Signals
 
 Recommendation systems learn from two fundamentally different types of user feedback:
@@ -152,6 +155,9 @@ graph TD
 
 **Limitation:** These metrics treat all positions within top-K equally, ignoring that position 1 matters more than position 10.
 
+![Precision and Recall Visualization](./images/014-recsys-02.png)
+*Source: Evidently AI - Visual representation of Precision@K and Recall@K metrics.*
+
 ### 4.3 Mean Average Precision (MAP)
 
 MAP rewards models that place relevant items earlier by computing precision at each relevant item's position:
@@ -161,6 +167,9 @@ $$\text{AP} = \frac{1}{R} \sum_{k=1}^{N} P(k) \times \text{rel}(k)$$
 Where R is total relevant items, P(k) is precision at position k, and rel(k) indicates if position k contains a relevant item.
 
 **Advantage:** Directly rewards early placement of relevant items.
+
+![Mean Average Precision](./images/014-recsys-03.png)
+*Source: Evidently AI - How MAP rewards models that place relevant items earlier.*
 
 ### 4.4 Normalized Discounted Cumulative Gain (NDCG)
 
@@ -194,6 +203,9 @@ graph LR
 - Normalizes across users with different numbers of relevant items
 - Produces scores between 0 and 1 for easy comparison
 
+![NDCG Calculation](./images/014-recsys-04.png)
+*Source: Evidently AI - NDCG applies logarithmic discounting based on position.*
+
 ### 4.5 Beyond Accuracy: Coverage and Diversity
 
 Accuracy metrics alone miss important system properties:
@@ -206,6 +218,9 @@ Accuracy metrics alone miss important system properties:
 | **Serendipity** | Surprising yet relevant items | Creates delight and engagement |
 
 $$\text{Coverage} = \frac{\text{Unique items recommended}}{\text{Total catalog size}}$$
+
+![Diversity Metrics](./images/014-recsys-05.png)
+*Source: Evidently AI - Coverage and diversity metrics for recommendation quality.*
 
 ---
 
@@ -303,6 +318,9 @@ $$\text{sim}(u, v) = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf
 
 **Challenge:** User vectors are sparse and volatile—preferences change frequently.
 
+![User-Based Collaborative Filtering](./images/014-recsys-06.png)
+*Source: Google RecSys - User-based collaborative filtering finds similar users to make recommendations.*
+
 #### Item-Based Collaborative Filtering
 
 Find similar items based on co-consumption patterns.
@@ -338,6 +356,9 @@ graph LR
 
 *Figure 8: Item-based CF typically outperforms user-based in production due to stability.*
 
+![Item-Based Collaborative Filtering](./images/014-recsys-07.png)
+*Source: Google RecSys - Item-based CF compares items based on co-consumption patterns.*
+
 ### 5.4 Matrix Factorization
 
 Decompose the user-item interaction matrix into latent factor representations.
@@ -368,6 +389,9 @@ graph TD
 
 *Figure 9: Matrix factorization learns low-dimensional representations that reconstruct interactions.*
 
+![Matrix Factorization Concept](./images/014-recsys-08.png)
+*Source: Google RecSys - Matrix factorization decomposes the user-item matrix into latent factors.*
+
 **Why It Works:**
 - Handles sparsity by learning generalizable patterns
 - Latent factors capture implicit item properties
@@ -383,6 +407,12 @@ graph TD
 | **SGD** | Stochastic gradient descent | Flexible, easy to extend |
 
 **ALS Advantage:** Fixes one matrix, solves for the other in closed form. Naturally parallelizable—each user/item vector can be computed independently.
+
+![SVD and Matrix Factorization](./images/014-recsys-09.png)
+*Source: Google RecSys - SVD-based approaches for learning user and item embeddings.*
+
+![Matrix Factorization Training](./images/014-recsys-10.png)
+*Source: Google RecSys - Training process for matrix factorization models.*
 
 ---
 
@@ -416,6 +446,9 @@ graph TD
 ```
 
 *Figure 10: Different cold start scenarios require different mitigation strategies.*
+
+![Cold Start Solutions](./images/014-recsys-11.png)
+*Source: BuildML - Strategies for handling cold start problems in recommendation systems.*
 
 ---
 
