@@ -23,6 +23,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **011** | [**Extreme Gradient Boosting: Second-Order Optimization in Ensemble Learning**](./011-xgboost-gradient-boosting.md) | XGBoost, Gradient Boosting, Ensemble Methods | ✅ Published |
 | **012** | [**Cracking ML System Design Case Studies**](./012-ml-system-design.md) | ML System Design, Interview Prep, Data Science | ✅ Published |
 | **013** | [**Essential LLM Concepts: A Technical Deep-Dive**](./013-llm-interview-questions.md) | LLMs, Transformers, RLHF, RAG | ✅ Published |
+| **014** | [**Recommendation Systems: From Fundamentals to Production**](./014-recommendation-systems.md) | RecSys, Collaborative Filtering, Matrix Factorization | ✅ Published |
 
 ## 🛠 Methodology
 
