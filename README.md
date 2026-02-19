@@ -22,6 +22,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **010** | [**Recursive Partitioning in Supervised Learning: Decision Tree Architectures**](./articles/010-decision-trees-advanced.md) | Decision Trees, CART, Ensemble Methods, ML Theory | ✅ Published |
 | **011** | [**Extreme Gradient Boosting: Second-Order Optimization in Ensemble Learning**](./articles/011-xgboost-gradient-boosting.md) | XGBoost, Gradient Boosting, Ensemble Methods | ✅ Published |
 | **012** | [**Cracking ML System Design Case Studies**](./articles/012-ml-system-design.md) | ML System Design, Interview Prep, Data Science | ✅ Published |
+| **013** | [**Essential LLM Concepts: A Technical Deep-Dive**](./articles/013-llm-interview-questions.md) | LLMs, Transformers, RLHF, RAG | ✅ Published |
 
 ## 🛠 Methodology
 
