@@ -24,6 +24,9 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **012** | [**Cracking ML System Design Case Studies**](./articles/012-ml-system-design.md) | ML System Design, Interview Prep, Data Science | ✅ Published |
 | **013** | [**Essential LLM Concepts: A Technical Deep-Dive**](./articles/013-llm-interview-questions.md) | LLMs, Transformers, RLHF, RAG | ✅ Published |
 | **014** | [**Recommendation Systems: From Fundamentals to Production**](./articles/014-recommendation-systems.md) | RecSys, Collaborative Filtering, Matrix Factorization | ✅ Published |
+| **015** | [**I Messed Up My Amazon Interview – Don't Make These ML Mistakes**](./articles/015-amazon-interview-ml-mistakes.md) | Machine Learning Interviews, Linear Regression | ✅ Published |
+| **016** | [**Understanding Self-Distillation and Privileged Information Distillation**](./articles/016-distillation-twitter-x.md) | Knowledge Distillation, Model Compression, AI Theory | ✅ Published |
+| **017** | [**Crash Course to Crack Machine Learning Interview – Part 5: Support Vector Machines**](./articles/017-svm-interview-guide.md) | Machine Learning, Algorithms, Interview Prep | ✅ Published |
 
 ## 🛠 Methodology
 
