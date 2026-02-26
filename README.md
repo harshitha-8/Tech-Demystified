@@ -31,6 +31,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **019** | [**What Interviewers Actually Ask After You Say "I Built an AI Agent"**](./articles/019-ai-agent-interview-questions.md) | AI Agents, LLMs, System Design, Interview Prep | ✅ Published |
 | **020** | [**Crash Course to Crack Machine Learning Interview – Part 7: Time Series Forecasting**](./articles/020-time-series-forecasting-interview.md) | Time Series, ARIMA, Forecasting, Interview Prep | ✅ Published |
 | **021** | [**Deep Dive: NVIDIA GPU Architecture and High-Performance Computing**](./articles/021-nvidia-gpu-architecture-deep-dive.md) | GPU Architecture, CUDA, Hardware, Performance Optimization | ✅ Published |
+| **022** | [**Training Large Language Models Across 1,000 GPUs**](./articles/022-distributed-llm-training.md) | Distributed Training, Parallelism, Scalability, LLMs | ✅ Published |
 
 ## 🛠 Methodology
 
