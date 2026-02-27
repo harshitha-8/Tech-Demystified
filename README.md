@@ -35,6 +35,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **023** | [**Why Leading AI Researchers Are Skeptical That LLMs Lead to AGI**](./articles/023-llms-and-agi-limitations.md) | AGI, LLMs, AI Theory, Research Directions | ✅ Published |
 | **024** | [**Crash Course to Crack Machine Learning Interview – Part 8: Random Forests**](./articles/024-random-forests-interview-guide.md) | Random Forests, Ensemble Learning, Interview Prep | ✅ Published |
 | **025** | [**Crash Course to Crack Machine Learning Interview – Part 9: k-Nearest Neighbors**](./articles/025-knn-interview-guide.md) | k-NN, Distance Metrics, Curse of Dimensionality | ✅ Published |
+| **026** | [**Building Secure, Scalable Agent Sandbox Infrastructure**](./articles/026-agent-sandbox-infrastructure.md) | AI Agents, Security, Kubernetes, Container Isolation | ✅ Published |
 
 ## 🛠 Methodology
 
