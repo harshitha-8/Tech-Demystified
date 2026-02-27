@@ -36,6 +36,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **024** | [**Crash Course to Crack Machine Learning Interview – Part 8: Random Forests**](./articles/024-random-forests-interview-guide.md) | Random Forests, Ensemble Learning, Interview Prep | ✅ Published |
 | **025** | [**Crash Course to Crack Machine Learning Interview – Part 9: k-Nearest Neighbors**](./articles/025-knn-interview-guide.md) | k-NN, Distance Metrics, Curse of Dimensionality | ✅ Published |
 | **026** | [**Building Secure, Scalable Agent Sandbox Infrastructure**](./articles/026-agent-sandbox-infrastructure.md) | AI Agents, Security, Kubernetes, Container Isolation | ✅ Published |
+| **027** | [**Deployment-Ready Reinforcement Learning: Bridging the Sim-to-Real Gap**](./articles/027-deployment-ready-rl.md) | Reinforcement Learning, Robotics, Sim-to-Real, Domain Randomization | ✅ Published |
 
 ## 🛠 Methodology
 
