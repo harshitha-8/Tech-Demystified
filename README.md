@@ -33,6 +33,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **021** | [**Deep Dive: NVIDIA GPU Architecture and High-Performance Computing**](./articles/021-nvidia-gpu-architecture-deep-dive.md) | GPU Architecture, CUDA, Hardware, Performance Optimization | ✅ Published |
 | **022** | [**Training Large Language Models Across 1,000 GPUs**](./articles/022-distributed-llm-training.md) | Distributed Training, Parallelism, Scalability, LLMs | ✅ Published |
 | **023** | [**Why Leading AI Researchers Are Skeptical That LLMs Lead to AGI**](./articles/023-llms-and-agi-limitations.md) | AGI, LLMs, AI Theory, Research Directions | ✅ Published |
+| **024** | [**Crash Course to Crack Machine Learning Interview – Part 8: Random Forests**](./articles/024-random-forests-interview-guide.md) | Random Forests, Ensemble Learning, Interview Prep | ✅ Published |
 
 ## 🛠 Methodology
 
