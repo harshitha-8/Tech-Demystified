@@ -41,6 +41,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **029** | [**Building Production LLM Infrastructure: Self-Hosting with vLLM on GPU**](./articles/029-self-hosted-llm-inference-vllm.md) | vLLM, GPU Inference, LLM Deployment, Self-Hosting, Production ML | ✅ Published |
 | **030** | [**vLLM Deep Dive: The Five Pillars of Production LLM Optimization**](./articles/030-vllm-advanced-optimization.md) | vLLM Optimization, Continuous Batching, Tensor Parallelism, Prefix Caching, Quantization | ✅ Published |
 | **031** | [**Deploying Vision Language Models on Edge: VLMs on NVIDIA Jetson**](./articles/031-vlm-deployment-jetson.md) | Edge AI, Vision Language Models, Jetson, Embedded Systems, Real-Time Inference | ✅ Published |
+| **032** | [**System Design Interview Mastery: The Complete Framework for FAANG Success**](./articles/032-system-design-interview-mastery.md) | System Design, Interview Prep, Software Architecture, FAANG Interviews | ✅ Published |
 
 ## 🛠 Methodology
 
