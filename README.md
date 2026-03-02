@@ -43,6 +43,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **031** | [**Deploying Vision Language Models on Edge: VLMs on NVIDIA Jetson**](./articles/031-vlm-deployment-jetson.md) | Edge AI, Vision Language Models, Jetson, Embedded Systems, Real-Time Inference | ✅ Published |
 | **032** | [**System Design Interview Mastery: The Complete Framework for FAANG Success**](./articles/032-system-design-interview-mastery.md) | System Design, Interview Prep, Software Architecture, FAANG Interviews | ✅ Published |
 | **033** | [**The Mathematics of Optimization: From Gradient Descent to Newton's Method**](./articles/033-optimization-minimizing-functions.md) | Optimization, Gradient Descent, Adam, Newton's Method, Convex Optimization | ✅ Published |
+| **034** | [**The Rise of No-Code AI Agents: 5 Open-Source Platforms Democratizing LLM Development**](./articles/034-no-code-llm-agent-builders.md) | No-Code AI, AutoAgent, AnythingLLM, Dify, Sim, RAG, AI Agents | ✅ Published |
 
 ## 🛠 Methodology
 
