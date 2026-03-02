@@ -44,6 +44,11 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **032** | [**System Design Interview Mastery: The Complete Framework for FAANG Success**](./articles/032-system-design-interview-mastery.md) | System Design, Interview Prep, Software Architecture, FAANG Interviews | ✅ Published |
 | **033** | [**The Mathematics of Optimization: From Gradient Descent to Newton's Method**](./articles/033-optimization-minimizing-functions.md) | Optimization, Gradient Descent, Adam, Newton's Method, Convex Optimization | ✅ Published |
 | **034** | [**The Rise of No-Code AI Agents: 5 Open-Source Platforms Democratizing LLM Development**](./articles/034-no-code-llm-agent-builders.md) | No-Code AI, AutoAgent, AnythingLLM, Dify, Sim, RAG, AI Agents | ✅ Published |
+| **035** | [**AutoAgent Technical Report: Zero-Code LLM Agent Framework Deep Dive**](./articles/035-autoagent-technical-report.md) | AutoAgent, Zero-Code, Natural Language Agents, GAIA Benchmark, Agentic-RAG | ✅ Published |
+| **036** | [**AnythingLLM Technical Report: Full-Stack Private ChatGPT Alternative**](./articles/036-anythingllm-technical-report.md) | AnythingLLM, RAG, Multi-User, Private AI, Document Chat, BaaS | ✅ Published |
+| **037** | [**Dify Technical Report: Production LLM Application Platform with LLMOps**](./articles/037-dify-technical-report.md) | Dify, LLMOps, Visual Workflow, RAG Pipeline, Observability, Enterprise AI | ✅ Published |
+| **038** | [**LangChain Open Agent Platform Technical Report: Visual LangGraph Builder (Deprecated)**](./articles/038-langchain-oap-technical-report.md) | LangChain, LangGraph, Agent Builder, LangSmith, Multi-Agent, RAG | ✅ Published |
+| **039** | [**Sim Technical Report: AI Agent Workflow Builder with Built-In Copilot**](./articles/039-sim-technical-report.md) | Sim, AI Copilot, Visual Workflow, DAG Execution, E2B, Local Models | ✅ Published |
 
 ## 🛠 Methodology
 
