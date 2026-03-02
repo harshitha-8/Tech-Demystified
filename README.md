@@ -39,6 +39,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **027** | [**Deployment-Ready Reinforcement Learning: Bridging the Sim-to-Real Gap**](./articles/027-deployment-ready-rl.md) | Reinforcement Learning, Robotics, Sim-to-Real, Domain Randomization | ✅ Published |
 | **028** | [**Systolic Arrays: The 1978 Invention That Powers Modern AI**](./articles/028-systolic-arrays-tensor-cores-tpus.md) | Systolic Arrays, Tensor Cores, TPUs, AI Hardware, GPU Architecture | ✅ Published |
 | **029** | [**Building Production LLM Infrastructure: Self-Hosting with vLLM on GPU**](./articles/029-self-hosted-llm-inference-vllm.md) | vLLM, GPU Inference, LLM Deployment, Self-Hosting, Production ML | ✅ Published |
+| **030** | [**vLLM Deep Dive: The Five Pillars of Production LLM Optimization**](./articles/030-vllm-advanced-optimization.md) | vLLM Optimization, Continuous Batching, Tensor Parallelism, Prefix Caching, Quantization | ✅ Published |
 
 ## 🛠 Methodology
 
