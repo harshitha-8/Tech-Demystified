@@ -42,6 +42,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **030** | [**vLLM Deep Dive: The Five Pillars of Production LLM Optimization**](./articles/030-vllm-advanced-optimization.md) | vLLM Optimization, Continuous Batching, Tensor Parallelism, Prefix Caching, Quantization | ✅ Published |
 | **031** | [**Deploying Vision Language Models on Edge: VLMs on NVIDIA Jetson**](./articles/031-vlm-deployment-jetson.md) | Edge AI, Vision Language Models, Jetson, Embedded Systems, Real-Time Inference | ✅ Published |
 | **032** | [**System Design Interview Mastery: The Complete Framework for FAANG Success**](./articles/032-system-design-interview-mastery.md) | System Design, Interview Prep, Software Architecture, FAANG Interviews | ✅ Published |
+| **033** | [**The Mathematics of Optimization: From Gradient Descent to Newton's Method**](./articles/033-optimization-minimizing-functions.md) | Optimization, Gradient Descent, Adam, Newton's Method, Convex Optimization | ✅ Published |
 
 ## 🛠 Methodology
 
