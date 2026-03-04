@@ -51,6 +51,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **039** | [**Sim Technical Report: AI Agent Workflow Builder with Built-In Copilot**](./articles/039-sim-technical-report.md) | Sim, AI Copilot, Visual Workflow, DAG Execution, E2B, Local Models | ✅ Published |
 | **040** | [**The Global AI/ML Startup Ecosystem: Comprehensive Analysis of 2,330 Companies**](./articles/040-global-ai-ml-startup-ecosystem.md) | Startup Ecosystem, Geographic Analysis, Funding Trends, AI Market, Venture Capital | ✅ Published |
 | **041** | [**Emerging AI Application Domains: Deep Dive into Vertical-Specific Innovation**](./articles/041-ai-vertical-innovation-deep-dive.md) | Computer Vision, NLP Applications, Robotics, Medical AI, Legal AI, Recommendation Systems | ✅ Published |
+| **042** | [**The Evolution of RLHF: From PPO to DPO to GRPO to Rubrics**](./articles/042-rlhf-evolution-ppo-dpo-grpo-rubrics.md) | RLHF, PPO, DPO, GRPO, Rubrics, Reinforcement Learning, LLM Alignment, Constitutional AI | ✅ Published |
 
 ## 🛠 Methodology
 
