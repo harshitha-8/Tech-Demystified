@@ -52,6 +52,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **040** | [**The Global AI/ML Startup Ecosystem: Comprehensive Analysis of 2,330 Companies**](./articles/040-global-ai-ml-startup-ecosystem.md) | Startup Ecosystem, Geographic Analysis, Funding Trends, AI Market, Venture Capital | ✅ Published |
 | **041** | [**Emerging AI Application Domains: Deep Dive into Vertical-Specific Innovation**](./articles/041-ai-vertical-innovation-deep-dive.md) | Computer Vision, NLP Applications, Robotics, Medical AI, Legal AI, Recommendation Systems | ✅ Published |
 | **042** | [**The Evolution of RLHF: From PPO to DPO to GRPO to Rubrics**](./articles/042-rlhf-evolution-ppo-dpo-grpo-rubrics.md) | RLHF, PPO, DPO, GRPO, Rubrics, Reinforcement Learning, LLM Alignment, Constitutional AI | ✅ Published |
+| **043** | [**How I'd Become a Quant If I Had to Start Over Tomorrow**](./articles/043-becoming-a-quant-complete-roadmap.md) | Quantitative Finance, Algorithmic Trading, Career Guide, Financial Engineering, HFT, Interview Prep | ✅ Published |
 
 ## 🛠 Methodology
 
