@@ -49,6 +49,8 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **037** | [**Dify Technical Report: Production LLM Application Platform with LLMOps**](./articles/037-dify-technical-report.md) | Dify, LLMOps, Visual Workflow, RAG Pipeline, Observability, Enterprise AI | ✅ Published |
 | **038** | [**LangChain Open Agent Platform Technical Report: Visual LangGraph Builder (Deprecated)**](./articles/038-langchain-oap-technical-report.md) | LangChain, LangGraph, Agent Builder, LangSmith, Multi-Agent, RAG | ✅ Published |
 | **039** | [**Sim Technical Report: AI Agent Workflow Builder with Built-In Copilot**](./articles/039-sim-technical-report.md) | Sim, AI Copilot, Visual Workflow, DAG Execution, E2B, Local Models | ✅ Published |
+| **040** | [**The Global AI/ML Startup Ecosystem: Comprehensive Analysis of 2,330 Companies**](./articles/040-global-ai-ml-startup-ecosystem.md) | Startup Ecosystem, Geographic Analysis, Funding Trends, AI Market, Venture Capital | ✅ Published |
+| **041** | [**Emerging AI Application Domains: Deep Dive into Vertical-Specific Innovation**](./articles/041-ai-vertical-innovation-deep-dive.md) | Computer Vision, NLP Applications, Robotics, Medical AI, Legal AI, Recommendation Systems | ✅ Published |
 
 ## 🛠 Methodology
 
