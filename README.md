@@ -55,6 +55,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **043** | [**How I'd Become a Quant If I Had to Start Over Tomorrow**](./articles/043-becoming-a-quant-complete-roadmap.md) | Quantitative Finance, Algorithmic Trading, Career Guide, Financial Engineering, HFT, Interview Prep | ✅ Published |
 | **044** | [**Introduction to Post-Training for Large Language Models**](./articles/044-post-training-llms-comprehensive-guide.md) | Post-Training, SFT, DPO, GRPO, Preference Alignment, Reinforcement Learning, LLM Fine-Tuning, Liquid AI | ✅ Published |
 | **045** | [**Become a Tinkerer: The New Engineering Paradigm in the AI Age**](./articles/045-become-a-tinkerer-ai-age.md) | Tinkerer Mindset, AI Engineering, Full-Stack, Product Engineering, Startup Culture, Organizational Design | ✅ Published |
+| **046** | [**Nowcasting AI's Impact on Employment: Labor Market Displacement Analysis**](./articles/046-ai-labor-market-impacts-nowcasting.md) | Labor Economics, AI Impact, Employment, Workforce Analytics, Economic Research, Anthropic, Job Displacement | ✅ Published |
 
 ## 🛠 Methodology
 
