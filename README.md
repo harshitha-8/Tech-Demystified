@@ -57,6 +57,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **045** | [**Become a Tinkerer: The New Engineering Paradigm in the AI Age**](./articles/045-become-a-tinkerer-ai-age.md) | Tinkerer Mindset, AI Engineering, Full-Stack, Product Engineering, Startup Culture, Organizational Design | ✅ Published |
 | **046** | [**Nowcasting AI's Impact on Employment: Labor Market Displacement Analysis**](./articles/046-ai-labor-market-impacts-nowcasting.md) | Labor Economics, AI Impact, Employment, Workforce Analytics, Economic Research, Anthropic, Job Displacement | ✅ Published |
 | **047** | [**How ChatGPT Works: The Complete Technical Architecture Behind LLMs**](./articles/047-how-chatgpt-works-llm-concepts.md) | LLM Architecture, ChatGPT, Transformers, Tokens, Embeddings, RAG, RLHF, Inference, Benchmarks, Agentic AI | ✅ Published |
+| **048** | [**How Google Search Works: The Technical Architecture Behind the World's Most Critical Infrastructure**](./articles/048-how-google-search-works.md) | Google Search, PageRank, Information Retrieval, Crawling, Indexing, BERT, RankBrain, MUM, SEO, Search Infrastructure | ✅ Published |
 
 ## 🛠 Methodology
 
