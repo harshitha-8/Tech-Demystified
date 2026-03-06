@@ -53,6 +53,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **041** | [**Emerging AI Application Domains: Deep Dive into Vertical-Specific Innovation**](./articles/041-ai-vertical-innovation-deep-dive.md) | Computer Vision, NLP Applications, Robotics, Medical AI, Legal AI, Recommendation Systems | ✅ Published |
 | **042** | [**The Evolution of RLHF: From PPO to DPO to GRPO to Rubrics**](./articles/042-rlhf-evolution-ppo-dpo-grpo-rubrics.md) | RLHF, PPO, DPO, GRPO, Rubrics, Reinforcement Learning, LLM Alignment, Constitutional AI | ✅ Published |
 | **043** | [**How I'd Become a Quant If I Had to Start Over Tomorrow**](./articles/043-becoming-a-quant-complete-roadmap.md) | Quantitative Finance, Algorithmic Trading, Career Guide, Financial Engineering, HFT, Interview Prep | ✅ Published |
+| **044** | [**Introduction to Post-Training for Large Language Models**](./articles/044-post-training-llms-comprehensive-guide.md) | Post-Training, SFT, DPO, GRPO, Preference Alignment, Reinforcement Learning, LLM Fine-Tuning, Liquid AI | ✅ Published |
 
 ## 🛠 Methodology
 
