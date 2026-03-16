@@ -58,6 +58,7 @@ Each article in this repository represents a rigorous "lab report"—testing the
 | **046** | [**Nowcasting AI's Impact on Employment: Labor Market Displacement Analysis**](./articles/046-ai-labor-market-impacts-nowcasting.md) | Labor Economics, AI Impact, Employment, Workforce Analytics, Economic Research, Anthropic, Job Displacement | ✅ Published |
 | **047** | [**How ChatGPT Works: The Complete Technical Architecture Behind LLMs**](./articles/047-how-chatgpt-works-llm-concepts.md) | LLM Architecture, ChatGPT, Transformers, Tokens, Embeddings, RAG, RLHF, Inference, Benchmarks, Agentic AI | ✅ Published |
 | **048** | [**How Google Search Works: The Technical Architecture Behind the World's Most Critical Infrastructure**](./articles/048-how-google-search-works.md) | Google Search, PageRank, Information Retrieval, Crawling, Indexing, BERT, RankBrain, MUM, SEO, Search Infrastructure | ✅ Published |
+| **049** | [**How Uber Computes ETA: Real-Time Prediction System Powering 28M Daily Rides**](./articles/049-uber-eta-computation.md) | Uber ETA, DeepETA, Real-Time ML, Routing Algorithms, Graph Theory, Michelangelo, Distributed Systems | ✅ Published |
 
 ## 🛠 Methodology
 
